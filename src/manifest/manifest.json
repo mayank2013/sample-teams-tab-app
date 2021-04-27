@@ -1,0 +1,47 @@
+{
+  "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.8/MicrosoftTeams.schema.json",
+  "manifestVersion": "1.8",
+  "id": "c4fbf41a-fd74-4b1c-98bb-60642902bd7c",
+  "version": "0.0.1",
+  "packageName": "com.magoya.tab",
+  "developer": {
+    "name": "Microsoft",
+    "websiteUrl":"https://sampletabapp.azurewebsites.net",
+    "privacyUrl":"https://sampletabapp.azurewebsites.net/privacy.html",
+    "termsOfUseUrl": "https://sampletabapp.azurewebsites.net/tou.html"
+  },
+  "name": {
+    "short": "sample team tab app",
+    "full": "sample team tab app"
+  },
+  "description": {
+    "short": "TODO: add short description here",
+    "full": "TODO: add full description here"
+  },
+  "icons": {
+    "outline": "icon-outline.png",
+    "color": "icon-color.png"
+  },
+  "accentColor": "#D85028",
+  "configurableTabs": [
+    {
+      "configurationUrl": "https://8a54b8411e05.ngrok.io/channelTab/config.html",
+      "canUpdateConfiguration": true,
+      "scopes": [
+        "team"
+      ]
+    }
+  ],
+  "staticTabs": [],
+  "bots": [],
+  "connectors": [],
+  "composeExtensions": [],
+  "permissions": [
+    "identity",
+    "messageTeamMembers"
+  ],
+  "validDomains": [
+    "sampletabapp.azurewebsites.net"
+  ],
+  "showLoadingIndicator": false
+}

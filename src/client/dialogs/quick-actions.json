@@ -1,0 +1,63 @@
+{
+  "type": "AdaptiveCard",
+  "body": [
+    {
+      "type": "TextBlock",
+      "size": "Medium",
+      "weight": "Bolder",
+      "text": "Quick actions ✨"
+    },
+    {
+      "type": "Input.ChoiceSet",
+      "id": "myChoices",
+      "style": "compact",
+      "choices": [{
+        "title": "a",
+        "value": "a"
+      }],
+      "choices.data": {
+        "type": "data.query",
+        "dataset": "graph.microsoft.com/users"
+      }
+    },
+    {
+      "type": "ActionSet",
+      "actions": [
+        {
+          "type": "Action.Submit",
+          "title": "Take time off"
+        },
+        {
+          "type": "Action.Submit",
+          "title": "Look up a coworker",
+          "data": {
+            "msteams": {
+              "type": "tab/submit"
+            }
+          }
+        },
+        {
+          "type": "Action.Submit",
+          "title": "Give feedback",
+          "data": {
+            "msteams": {
+              "type": "tab/submit"
+            }
+          }
+        },
+        {
+          "type": "Action.Submit",
+          "title": "Ask Workday",
+          "data": {
+            "msteams": {
+              "type": "tab/submit"
+            }
+          }
+        }
+      ],
+      "separator": true
+    }
+  ],
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "version": "1.2"
+}

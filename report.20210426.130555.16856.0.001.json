@@ -1,0 +1,482 @@
+
+{
+  "header": {
+    "reportVersion": 1,
+    "event": "Allocation failed - JavaScript heap out of memory",
+    "trigger": "FatalError",
+    "filename": "report.20210426.130555.16856.0.001.json",
+    "dumpEventTime": "2021-04-26T13:05:55Z",
+    "dumpEventTimeStamp": "1619422555353",
+    "processId": 16856,
+    "cwd": "C:\\Users\\magoya\\OneDrive - Microsoft\\Desktop\\sample-team-tab-app",
+    "commandLine": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "C:\\Users\\magoya\\AppData\\Roaming\\npm/node_modules/gulp-cli/bin/gulp.js",
+      "ngrok-serve"
+    ],
+    "nodejsVersion": "v12.14.1",
+    "wordSize": 64,
+    "arch": "x64",
+    "platform": "win32",
+    "componentVersions": {
+      "node": "12.14.1",
+      "v8": "7.7.299.13-node.16",
+      "uv": "1.33.1",
+      "zlib": "1.2.11",
+      "brotli": "1.0.7",
+      "ares": "1.15.0",
+      "modules": "72",
+      "nghttp2": "1.40.0",
+      "napi": "5",
+      "llhttp": "2.0.1",
+      "http_parser": "2.8.0",
+      "openssl": "1.1.1d",
+      "cldr": "35.1",
+      "icu": "64.2",
+      "tz": "2019c",
+      "unicode": "12.1"
+    },
+    "release": {
+      "name": "node",
+      "lts": "Erbium",
+      "headersUrl": "https://nodejs.org/download/release/v12.14.1/node-v12.14.1-headers.tar.gz",
+      "sourceUrl": "https://nodejs.org/download/release/v12.14.1/node-v12.14.1.tar.gz",
+      "libUrl": "https://nodejs.org/download/release/v12.14.1/win-x64/node.lib"
+    },
+    "osName": "Windows_NT",
+    "osRelease": "10.0.19042",
+    "osVersion": "Windows 10 Enterprise",
+    "osMachine": "x86_64",
+    "cpus": [
+      {
+        "model": "Intel(R) Xeon(R) W-2133 CPU @ 3.60GHz",
+        "speed": 3600,
+        "user": 677046,
+        "nice": 0,
+        "sys": 543296,
+        "idle": 6609687,
+        "irq": 61703
+      },
+      {
+        "model": "Intel(R) Xeon(R) W-2133 CPU @ 3.60GHz",
+        "speed": 3600,
+        "user": 931718,
+        "nice": 0,
+        "sys": 486093,
+        "idle": 6412015,
+        "irq": 4171
+      },
+      {
+        "model": "Intel(R) Xeon(R) W-2133 CPU @ 3.60GHz",
+        "speed": 3600,
+        "user": 1447796,
+        "nice": 0,
+        "sys": 662828,
+        "idle": 5719203,
+        "irq": 6062
+      },
+      {
+        "model": "Intel(R) Xeon(R) W-2133 CPU @ 3.60GHz",
+        "speed": 3600,
+        "user": 546296,
+        "nice": 0,
+        "sys": 272343,
+        "idle": 7011187,
+        "irq": 3062
+      },
+      {
+        "model": "Intel(R) Xeon(R) W-2133 CPU @ 3.60GHz",
+        "speed": 3600,
+        "user": 1051406,
+        "nice": 0,
+        "sys": 544546,
+        "idle": 6233875,
+        "irq": 5125
+      },
+      {
+        "model": "Intel(R) Xeon(R) W-2133 CPU @ 3.60GHz",
+        "speed": 3600,
+        "user": 527343,
+        "nice": 0,
+        "sys": 294546,
+        "idle": 7007937,
+        "irq": 3218
+      },
+      {
+        "model": "Intel(R) Xeon(R) W-2133 CPU @ 3.60GHz",
+        "speed": 3600,
+        "user": 1004531,
+        "nice": 0,
+        "sys": 556046,
+        "idle": 6269250,
+        "irq": 5875
+      },
+      {
+        "model": "Intel(R) Xeon(R) W-2133 CPU @ 3.60GHz",
+        "speed": 3600,
+        "user": 570187,
+        "nice": 0,
+        "sys": 228406,
+        "idle": 7031234,
+        "irq": 2640
+      },
+      {
+        "model": "Intel(R) Xeon(R) W-2133 CPU @ 3.60GHz",
+        "speed": 3600,
+        "user": 881781,
+        "nice": 0,
+        "sys": 486703,
+        "idle": 6461328,
+        "irq": 5140
+      },
+      {
+        "model": "Intel(R) Xeon(R) W-2133 CPU @ 3.60GHz",
+        "speed": 3600,
+        "user": 531421,
+        "nice": 0,
+        "sys": 251328,
+        "idle": 7047062,
+        "irq": 3000
+      },
+      {
+        "model": "Intel(R) Xeon(R) W-2133 CPU @ 3.60GHz",
+        "speed": 3600,
+        "user": 844406,
+        "nice": 0,
+        "sys": 477578,
+        "idle": 6507828,
+        "irq": 5062
+      },
+      {
+        "model": "Intel(R) Xeon(R) W-2133 CPU @ 3.60GHz",
+        "speed": 3600,
+        "user": 583500,
+        "nice": 0,
+        "sys": 285906,
+        "idle": 6960406,
+        "irq": 2875
+      }
+    ],
+    "networkInterfaces": [
+      {
+        "name": "Ethernet",
+        "internal": false,
+        "mac": "f4:93:9f:f5:21:e8",
+        "address": "fe80::713f:c21e:5a72:a1db",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "scopeid": 18
+      },
+      {
+        "name": "Ethernet",
+        "internal": false,
+        "mac": "f4:93:9f:f5:21:e8",
+        "address": "192.168.1.8",
+        "netmask": "255.255.255.0",
+        "family": "IPv4"
+      },
+      {
+        "name": "MSFTVPN",
+        "internal": false,
+        "mac": "00:00:00:00:00:00",
+        "address": "2404:f801:28:101::1e77",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "scopeid": 0
+      },
+      {
+        "name": "MSFTVPN",
+        "internal": false,
+        "mac": "00:00:00:00:00:00",
+        "address": "fe80::1e77",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "scopeid": 30
+      },
+      {
+        "name": "MSFTVPN",
+        "internal": false,
+        "mac": "00:00:00:00:00:00",
+        "address": "100.64.119.223",
+        "netmask": "255.255.255.255",
+        "family": "IPv4"
+      },
+      {
+        "name": "Loopback Pseudo-Interface 1",
+        "internal": true,
+        "mac": "00:00:00:00:00:00",
+        "address": "::1",
+        "netmask": "ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff",
+        "family": "IPv6",
+        "scopeid": 0
+      },
+      {
+        "name": "Loopback Pseudo-Interface 1",
+        "internal": true,
+        "mac": "00:00:00:00:00:00",
+        "address": "127.0.0.1",
+        "netmask": "255.0.0.0",
+        "family": "IPv4"
+      }
+    ],
+    "host": "MININT-38APRBQ"
+  },
+  "javascriptStack": {
+    "message": "No stack.",
+    "stack": [
+      "Unavailable."
+    ]
+  },
+  "nativeStack": [
+    {
+      "pc": "0x00007ff78f561759",
+      "symbol": "std::basic_ostream<char,std::char_traits<char> >::operator<<+10873"
+    },
+    {
+      "pc": "0x00007ff78f565b7c",
+      "symbol": "std::basic_ostream<char,std::char_traits<char> >::operator<<+28316"
+    },
+    {
+      "pc": "0x00007ff78f564b38",
+      "symbol": "std::basic_ostream<char,std::char_traits<char> >::operator<<+24152"
+    },
+    {
+      "pc": "0x00007ff78f65433b",
+      "symbol": "v8::base::CPU::has_sse+37723"
+    },
+    {
+      "pc": "0x00007ff78fe58c5e",
+      "symbol": "v8::Isolate::ReportExternalAllocationLimitReached+94"
+    },
+    {
+      "pc": "0x00007ff78fe40ca1",
+      "symbol": "v8::SharedArrayBuffer::Externalize+833"
+    },
+    {
+      "pc": "0x00007ff78fd0e56c",
+      "symbol": "v8::internal::Heap::EphemeronKeyWriteBarrierFromCode+1436"
+    },
+    {
+      "pc": "0x00007ff78fd19910",
+      "symbol": "v8::internal::Heap::ProtectUnprotectedMemoryChunks+1312"
+    },
+    {
+      "pc": "0x00007ff78fd16444",
+      "symbol": "v8::internal::Heap::PageFlagsAreConsistent+3204"
+    },
+    {
+      "pc": "0x00007ff78fd0bcd3",
+      "symbol": "v8::internal::Heap::CollectGarbage+1283"
+    },
+    {
+      "pc": "0x00007ff78fd0a4a4",
+      "symbol": "v8::internal::Heap::AddRetainedMap+2356"
+    },
+    {
+      "pc": "0x00007ff78fd2b775",
+      "symbol": "v8::internal::Factory::NewFillerObject+53"
+    },
+    {
+      "pc": "0x00007ff78fa97a49",
+      "symbol": "v8::internal::interpreter::JumpTableTargetOffsets::iterator::operator=+4057"
+    },
+    {
+      "pc": "0x00007ff79028463d",
+      "symbol": "v8::internal::SetupIsolateDelegate::SetupHeap+567949"
+    },
+    {
+      "pc": "0x0000008f7dcdc0b5",
+      "symbol": ""
+    }
+  ],
+  "javascriptHeap": {
+    "totalMemory": 2173636608,
+    "totalCommittedMemory": 2173636608,
+    "usedMemory": 2119171592,
+    "availableMemory": 54661872,
+    "memoryLimit": 2197815296,
+    "heapSpaces": {
+      "read_only_space": {
+        "memorySize": 262144,
+        "committedMemory": 262144,
+        "capacity": 261872,
+        "used": 32296,
+        "available": 229576
+      },
+      "new_space": {
+        "memorySize": 33554432,
+        "committedMemory": 33554432,
+        "capacity": 16759808,
+        "used": 3499856,
+        "available": 13259952
+      },
+      "old_space": {
+        "memorySize": 1977724928,
+        "committedMemory": 1977724928,
+        "capacity": 1957710400,
+        "used": 1957476552,
+        "available": 233848
+      },
+      "code_space": {
+        "memorySize": 6455296,
+        "committedMemory": 6455296,
+        "capacity": 5249632,
+        "used": 5249632,
+        "available": 0
+      },
+      "map_space": {
+        "memorySize": 8392704,
+        "committedMemory": 8392704,
+        "capacity": 6210720,
+        "used": 6210720,
+        "available": 0
+      },
+      "large_object_space": {
+        "memorySize": 146624512,
+        "committedMemory": 146624512,
+        "capacity": 146152136,
+        "used": 146152136,
+        "available": 0
+      },
+      "code_large_object_space": {
+        "memorySize": 622592,
+        "committedMemory": 622592,
+        "capacity": 550400,
+        "used": 550400,
+        "available": 0
+      },
+      "new_large_object_space": {
+        "memorySize": 0,
+        "committedMemory": 0,
+        "capacity": 16759808,
+        "used": 0,
+        "available": 16759808
+      }
+    }
+  },
+  "resourceUsage": {
+    "userCpuSeconds": 218.593,
+    "kernelCpuSeconds": 18.828,
+    "cpuConsumptionPercent": 15.0552,
+    "maxRss": 2309214208,
+    "pageFaults": {
+      "IORequired": 1159578,
+      "IONotRequired": 0
+    },
+    "fsActivity": {
+      "reads": 43796,
+      "writes": 82
+    }
+  },
+  "libuv": [
+  ],
+  "environmentVariables": {
+    "=::": "::\\",
+    "ALLUSERSPROFILE": "C:\\ProgramData",
+    "APPDATA": "C:\\Users\\magoya\\AppData\\Roaming",
+    "APPINSIGHTS_INSTRUMENTATIONKEY": "",
+    "APPLICATION_ID": "ee7fff60-a65c-11eb-b111-4f0fd119ebfa",
+    "ChocolateyInstall": "C:\\ProgramData\\chocolatey",
+    "ChocolateyLastPathUpdate": "132544137349821386",
+    "CommonProgramFiles": "C:\\Program Files\\Common Files",
+    "CommonProgramFiles(x86)": "C:\\Program Files (x86)\\Common Files",
+    "CommonProgramW6432": "C:\\Program Files\\Common Files",
+    "COMPUTERNAME": "MININT-38APRBQ",
+    "ComSpec": "C:\\WINDOWS\\system32\\cmd.exe",
+    "CONNECTOR_ID": "",
+    "DEBUG": "msteams",
+    "DriverData": "C:\\Windows\\System32\\Drivers\\DriverData",
+    "FPS_BROWSER_APP_PROFILE_STRING": "Internet Explorer",
+    "FPS_BROWSER_USER_PROFILE_STRING": "Default",
+    "HOMEDRIVE": "C:",
+    "HOMEPATH": "\\Users\\magoya",
+    "HOSTNAME": "938674315773.ngrok.io",
+    "INIT_CWD": "C:\\Users\\magoya\\OneDrive - Microsoft\\Desktop\\sample-team-tab-app",
+    "LOCALAPPDATA": "C:\\Users\\magoya\\AppData\\Local",
+    "LOGONSERVER": "\\\\MININT-38APRBQ",
+    "MICROSOFT_APP_ID": "81a1a08c-4528-4bf8-977f-8cb142fdd3d6",
+    "MICROSOFT_APP_PASSWORD": "o2kHKl8-Z5AO~Jg8.flf~0YeGekjAAqY_U",
+    "NGROK_AUTH": "",
+    "NGROK_REGION": "",
+    "NGROK_SUBDOMAIN": "",
+    "NUMBER_OF_PROCESSORS": "12",
+    "OneDrive": "C:\\Users\\magoya\\OneDrive - Microsoft",
+    "OneDriveCommercial": "C:\\Users\\magoya\\OneDrive - Microsoft",
+    "OS": "Windows_NT",
+    "PACKAGE_NAME": "sampleteamtabapp",
+    "Path": "C:\\Program Files\\Common Files\\Microsoft Shared\\Microsoft Online Services;C:\\Program Files (x86)\\Common Files\\Microsoft Shared\\Microsoft Online Services;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\ProgramData\\chocolatey\\bin;C:\\Program Files\\Git\\cmd;C:\\Program Files\\nodejs\\;C:\\Users\\magoya\\.windows-build-tools\\python27\\;C:\\Users\\magoya\\AppData\\Local\\Microsoft\\WindowsApps;;C:\\Users\\magoya\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\magoya\\AppData\\Roaming\\npm;C:\\Python27;%USERPROFILE%\\AppData\\Local\\Microsoft\\WindowsApps",
+    "PATHEXT": ".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.CPL",
+    "PORT": "3007",
+    "PROCESSOR_ARCHITECTURE": "AMD64",
+    "PROCESSOR_IDENTIFIER": "Intel64 Family 6 Model 85 Stepping 4, GenuineIntel",
+    "PROCESSOR_LEVEL": "6",
+    "PROCESSOR_REVISION": "5504",
+    "ProgramData": "C:\\ProgramData",
+    "ProgramFiles": "C:\\Program Files",
+    "ProgramFiles(x86)": "C:\\Program Files (x86)",
+    "ProgramW6432": "C:\\Program Files",
+    "PSModulePath": "C:\\Users\\magoya\\OneDrive - Microsoft\\Documents\\WindowsPowerShell\\Modules;C:\\Program Files\\WindowsPowerShell\\Modules;C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules;C:\\Program Files (x86)\\Microsoft Azure Information Protection\\Powershell",
+    "PUBLIC": "C:\\Users\\Public",
+    "SECURITY_TOKEN": "",
+    "SESSIONNAME": "Console",
+    "SystemDrive": "C:",
+    "SystemRoot": "C:\\WINDOWS",
+    "TEMP": "C:\\Users\\magoya\\AppData\\Local\\Temp",
+    "TMP": "C:\\Users\\magoya\\AppData\\Local\\Temp",
+    "UATDATA": "C:\\windows\\CCM\\UATData\\D9F8C395-CAB8-491d-B8AC-179A1FE1BE77",
+    "USERDNSDOMAIN": "fareast.corp.microsoft.com",
+    "USERDOMAIN": "FAREAST",
+    "USERDOMAIN_ROAMINGPROFILE": "FAREAST",
+    "USERNAME": "magoya",
+    "USERPROFILE": "C:\\Users\\magoya",
+    "VERSION": "0.0.1",
+    "VS140COMNTOOLS": "C:\\Program Files (x86)\\Microsoft Visual Studio 14.0\\Common7\\Tools\\",
+    "windir": "C:\\WINDOWS"
+  },
+  "sharedObjects": [
+    "C:\\Program Files\\nodejs\\node.exe",
+    "C:\\WINDOWS\\SYSTEM32\\ntdll.dll",
+    "C:\\WINDOWS\\System32\\KERNEL32.DLL",
+    "C:\\WINDOWS\\System32\\KERNELBASE.dll",
+    "C:\\WINDOWS\\System32\\WS2_32.dll",
+    "C:\\WINDOWS\\System32\\RPCRT4.dll",
+    "C:\\WINDOWS\\SYSTEM32\\dbghelp.dll",
+    "C:\\WINDOWS\\System32\\ADVAPI32.dll",
+    "C:\\WINDOWS\\System32\\ucrtbase.dll",
+    "C:\\WINDOWS\\System32\\msvcrt.dll",
+    "C:\\WINDOWS\\System32\\sechost.dll",
+    "C:\\WINDOWS\\System32\\USER32.dll",
+    "C:\\WINDOWS\\System32\\win32u.dll",
+    "C:\\WINDOWS\\System32\\GDI32.dll",
+    "C:\\WINDOWS\\System32\\gdi32full.dll",
+    "C:\\WINDOWS\\System32\\msvcp_win.dll",
+    "C:\\WINDOWS\\System32\\PSAPI.DLL",
+    "C:\\WINDOWS\\SYSTEM32\\IPHLPAPI.DLL",
+    "C:\\WINDOWS\\System32\\CRYPT32.dll",
+    "C:\\WINDOWS\\System32\\bcrypt.dll",
+    "C:\\WINDOWS\\SYSTEM32\\USERENV.dll",
+    "C:\\WINDOWS\\SYSTEM32\\WINMM.dll",
+    "C:\\WINDOWS\\System32\\IMM32.DLL",
+    "C:\\WINDOWS\\SYSTEM32\\powrprof.dll",
+    "C:\\WINDOWS\\SYSTEM32\\UMPDC.dll",
+    "C:\\WINDOWS\\SYSTEM32\\CRYPTBASE.DLL",
+    "C:\\WINDOWS\\system32\\uxtheme.dll",
+    "C:\\WINDOWS\\System32\\combase.dll",
+    "C:\\WINDOWS\\system32\\mswsock.dll",
+    "C:\\WINDOWS\\SYSTEM32\\kernel.appcore.dll",
+    "C:\\WINDOWS\\System32\\bcryptprimitives.dll",
+    "\\\\?\\C:\\Users\\magoya\\OneDrive - Microsoft\\Desktop\\sample-team-tab-app\\node_modules\\node-sass\\vendor\\win32-x64-72\\binding.node",
+    "C:\\WINDOWS\\system32\\apphelp.dll",
+    "C:\\WINDOWS\\System32\\NSI.dll",
+    "C:\\WINDOWS\\SYSTEM32\\dhcpcsvc6.DLL",
+    "C:\\WINDOWS\\SYSTEM32\\dhcpcsvc.DLL",
+    "C:\\WINDOWS\\SYSTEM32\\DNSAPI.dll",
+    "C:\\Windows\\System32\\rasadhlp.dll",
+    "C:\\WINDOWS\\System32\\fwpuclnt.dll",
+    "C:\\WINDOWS\\system32\\napinsp.dll",
+    "C:\\WINDOWS\\system32\\pnrpnsp.dll",
+    "C:\\WINDOWS\\system32\\wshbth.dll",
+    "C:\\WINDOWS\\system32\\NLAapi.dll",
+    "C:\\WINDOWS\\System32\\winrnr.dll"
+  ]
+}
